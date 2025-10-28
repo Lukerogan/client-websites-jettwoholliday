@@ -1,0 +1,13 @@
+:root {
+    --reallylike:#48a0a8;
+}
+
+
+.hero-shot{
+    text-align: center;
+    background-image: url(../assets/beachumbrellas.jpg);
+}
+
+.second-shot{
+    text-align: center;
+}
