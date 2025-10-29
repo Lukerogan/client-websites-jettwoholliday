@@ -1,13 +1,54 @@
 :root {
     --reallylike:#48a0a8;
+    --sea: rgba( 174, 137, 75,0.52);
 }
+
+.tangerine-regular {
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5rem;
+}
+
 
 
 .hero-shot{
     text-align: center;
     background-image: url(../assets/beachumbrellas.jpg);
+    height: 100vh;
+    align-content: center;
+    color: white;
+    font-size: 5rem;
 }
 
 .second-shot{
     text-align: center;
+}
+
+.welcome {
+    font-size: 3rem;
+    font-weight: 100;
+}
+.resort{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.box{
+    background-color: var(--sea);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 25px;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.navbar{
+    background-color: var(--sea);
 }
