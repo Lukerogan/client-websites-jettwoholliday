@@ -1,6 +1,7 @@
 :root {
     --reallylike:#48a0a8;
-    --sea: rgba( 174, 137, 75,0.52);
+    --gold: rgba( 174, 137, 75,0.75);
+    --navy:rgba(15,28,46);
 }
 
 .tangerine-regular {
@@ -13,8 +14,10 @@
   font-family: "Tangerine", cursive;
   font-weight: 700;
   font-style: normal;
-  font-size: 5rem;
+  font-size: 7rem;
 }
+
+
 
 
 
@@ -30,18 +33,41 @@
 .second-shot{
     text-align: center;
 }
+.navbar{
+    padding: 0;
+}
+.nav-background {
+background-color: var(--navy);;
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.nav-link{
+    color:white;
+    background-color: var(--gold);
+border-color: black;
+border-width: 5px;
+border-style: double;
+margin-left: 15px;
+border-radius: 10px;
+padding-left: 20px !important;
+padding-right: 20px !important;
 
-.welcome {
-    font-size: 3rem;
-    font-weight: 100;
 }
 .resort{
     font-size: 2rem;
-    font-weight: 100;
+    font-weight: 400;
+     text-shadow:5px 5px 10px rgba(0, 0, 0, 0.5); /* A black shadow, offset, blurred */
+}
+.welcome{
+    font-size: 2rem;
+    font-weight: 400;
+     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* A black shadow, offset, blurred */
 }
 
+
 .box{
-    background-color: var(--sea);
+    background-color: var(--gold);
     margin-left: 30%;
     margin-right: 30%;
     border-radius: 25px;
@@ -50,5 +76,9 @@
 }
 
 .navbar{
-    background-color: var(--sea);
+    background-color: var(--gold);
+}
+
+.navbar-toggler {
+background-color: var(--gold);
 }
