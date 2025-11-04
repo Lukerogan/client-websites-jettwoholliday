@@ -1,9 +1,13 @@
+/* variables */
+
 :root {
     --reallylike:#48a0a8;
     --gold: rgba(174, 137, 75, 0.749);
     --navy:rgba(15,28,46);
+    --turquois:#b0d5cd;
+    --white : #ffff;
 }
-
+/* fonts */
 .tangerine-regular {
   font-family: "Tangerine", cursive;
   font-weight: 400;
@@ -18,6 +22,32 @@
 }
 
 
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.zalando-sans-semiexpanded-uniquifier {
+  font-family: "Zalando Sans SemiExpanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.funnel-display-uniquifier {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
 
 
 
@@ -86,10 +116,10 @@ background-color: var(--gold);
 .booking-row{
     background-color: var(--gold);
     border-radius: 25px;
-    /* padding-top: 20px;
+    padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
-    padding-right: 20px; */
+    padding-right: 20px;
 }
 
 body{
@@ -101,15 +131,55 @@ body{
 margin: auto;
 }
 
+.plans-col{
+  padding: auto;
+}
 
 
+.second-shot{
+  margin-top: 25px;
+   color: var(--white);
+   margin-bottom: 200px;
+}
+
+.abt-quote{
+  background-color: var(--reallylike);
+  border-radius: 25px;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.third-shot{
+  background-color: var(--turquois);
+  border-radius: 25px;
+ text-align: center;
+ padding-top:2.5%;
+ padding-bottom:2.5%;
+ padding-left:15%;
+ padding-right:15%;
+}
+
+.staff{
+max-width: 50%;
+margin-top: 20px;
+border-radius: 50px;
+}
 
 
+.staff-row, .owner-row{
+  justify-content: center;
+}
 
+.abt-owner{
+  padding-left: 15%;
+  padding-right: 15%;
+}
 
-
-
-
+.owner-img{
+  max-width: 25%;
+  border-radius: 50px;
+  margin-top: 20px;
+}
 
 
 
